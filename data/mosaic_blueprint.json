@@ -1,0 +1,15 @@
+{
+  "unit": 1,
+  "system_name": "Mosaic Social Platform",
+  "components": [
+    {"name": "Client Tier", "type": "Responsive Web & Mobile", "purpose": "Cross-platform access"},
+    {"name": "API Gateway / CDN", "type": "Edge Infrastructure", "purpose": "Request routing & media delivery"},
+    {"name": "Application Services", "type": "Stateless Backend", "purpose": "Business logic & API execution"},
+    {"name": "Data Tier", "type": "Relational DB & Object Storage", "purpose": "User metadata & binary media storage"}
+  ],
+  "trade_offs": [
+    {"priority": "Simplicity vs Scalability", "choice": "Managed Cloud Services"},
+    {"priority": "Performance vs Cost", "choice": "CDN Edge Caching"},
+    {"priority": "Availability vs Complexity", "choice": "Stateless Services & Queues"}
+  ]
+}
